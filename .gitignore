@@ -3,3 +3,5 @@
 /bin
 /pkg
 /src/config_private.rs
+.DS_STORE
+.direnv

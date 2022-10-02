@@ -82,9 +82,9 @@ fn main(mut req: Request) -> Result<Response, Error> {
         &body_bytes,
     );
     return if found {
-        Ok(Response::from_body(body_bytes))
-    } else {
         Ok(Response::from_status(StatusCode::NOT_FOUND))
+    } else {
+        Ok(Response::from_body(body_bytes))
     };
 }
 

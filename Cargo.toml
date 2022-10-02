@@ -1,5 +1,5 @@
 [package]
-name = "compute-starter-kit-static-content"
+name = "yara-rs-fastly"
 version = "0.1.0"
 authors = []
 edition = "2018"
